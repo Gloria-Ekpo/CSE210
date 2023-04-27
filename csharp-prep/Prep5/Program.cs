@@ -13,7 +13,7 @@ class Program
         //Call PromptUserNumber function and save the return value
         int number = PromptUserNumber();
 
-        //Call SquareNumber function with the number input and save
+        //Call SquareNumber function with the number input and save the return
         int squaredNumber =  SquareNumber(number);
 
         //Call DisplayResult function with the name and squaredNumber inputs
