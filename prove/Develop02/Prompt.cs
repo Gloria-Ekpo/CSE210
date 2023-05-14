@@ -1,11 +1,12 @@
 public class Prompt
 {
     List<string> _usedPrompts = new List<string>();
-    List<string> _prompts new List <string>();
+    List<string> _prompts = new List <string>();
 
     public Prompt()
     {
-        _prompts.Add("How was your day?");
+        _prompts.Add("Write a new entry");
+        
 
     }
 
