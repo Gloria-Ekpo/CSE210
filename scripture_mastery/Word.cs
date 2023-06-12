@@ -1,7 +1,7 @@
 public class Word
 {
-    string _word;
-    bool _IsShown;
+    private string _word;
+    private bool _IsShown;
 
     public Word(string word)
     {
