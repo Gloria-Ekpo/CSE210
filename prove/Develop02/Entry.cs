@@ -12,4 +12,15 @@ class Entry
         _date = date;
         _location = location;
     }
+
+    public void DisplayEntry()
+    {
+        Console.Write("Printing entry...");
+        Console.Write("text:"+ this._text);
+    }
+
+    public void SaveEntry()
+    {
+        // save current entrys
+    }
 }
